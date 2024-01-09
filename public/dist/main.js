@@ -79,13 +79,13 @@ function next(ev) {
     ev.preventDefault();
     iteratortimer = 10;
     controlSetInterval = setInterval(timer, 1000);
+    deleteElements();
     if (iteratorQuestion === maxQuestions) {
         hideElements();
         return;
     }
     iteratorQuestion++;
     span[0].textContent = `${iteratorQuestion}`;
-    deleteElements();
     renderInfoQuestion();
 }
 function renderButton() {

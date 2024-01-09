@@ -105,6 +105,7 @@ function next(ev: { preventDefault: () => void }) {
 
   iteratortimer = 10
   controlSetInterval = setInterval(timer, 1000)
+  deleteElements()
 
   if(iteratorQuestion === maxQuestions) {
     hideElements()
@@ -114,7 +115,6 @@ function next(ev: { preventDefault: () => void }) {
   iteratorQuestion++
   span[0].textContent = `${iteratorQuestion}`
 
-  deleteElements()
   renderInfoQuestion()
 }
 
