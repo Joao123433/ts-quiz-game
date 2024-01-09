@@ -5,26 +5,26 @@
 1. `Obtenção de Perguntas:`
 - O jogo faz uma solicitação assíncrona para um servidor local para obter perguntas de um banco de dados.
 
-2. Temporizador:
+2. `Temporizador:`
 - Cada pergunta é associada a um temporizador de contagem regressiva. Os jogadores têm um tempo limitado para responder cada pergunta.
 
-3. Feedback Imediato:
+3. `Feedback Imediato:`
 - Após a escolha de uma resposta, o jogador recebe feedback imediato sobre se a resposta está correta ou incorreta.
 
-4. Pontuação:
+4. `Pontuação:`
 - A pontuação do jogador é rastreada ao longo do jogo. A pontuação final é exibida no final do quiz.
 
-5. Interface Gráfica:
+`5. Interface Gráfica:`
 - O jogo possui uma interface simples com cabeçalho, barra de separação, área principal de perguntas e um painel de pontuação.
 
-6. Restart e Encerramento:
+6. `Restart e Encerramento:`
 - Os jogadores têm a opção de reiniciar o quiz após a conclusão ou encerrar o jogo.
 
 ## Pré-requisitos
 - Node.js
 
 ## Uso
-1. Clone o repositório para o seu ambiente local e acesse o repositório.
+1. `Clone o repositório para o seu ambiente local e acesse o repositório.`
     ```bash 
     git clone https://github.com/Joao123433/ts-quiz-game.git
     cd ts-quiz-game
