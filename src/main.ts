@@ -25,7 +25,7 @@ interface Question {
 }
 
 async function fetchQuestions() {
-  const response = await fetch(`http://localhost:3000/questions`)
+  const response = await fetch(`https://raw.githubusercontent.com/Joao123433/json-data/main/data.json`)
   if(response.ok) {
     return response.json()
   }
