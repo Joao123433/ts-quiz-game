@@ -1,0 +1,94 @@
+{
+  "questions": [
+    {
+      "title": "Qual é o maior planeta do nosso sistema solar?",
+      "response1": "Saturno",
+      "response2": "Terra",
+      "response3": "Júpiter",
+      "response4": "Plutão",
+      "response-correct": "Júpiter",
+      "id": 1
+    },
+    {
+      "title": "Quem é considerado o pai da teoria da relatividade?",
+      "response1": "Tony Stark",
+      "response2": "Isaac Newton",
+      "response3": "Albert Einstein",
+      "response4": "Nikola Tesla",
+      "response-correct": "Albert Einstein",
+      "id": 2
+    },
+    {
+      "title": "Qual é o símbolo químico para o ouro?",
+      "response1": "PT",
+      "response2": "Au",
+      "response3": "CS",
+      "response4": "H",
+      "response-correct": "Au",
+      "id": 3
+    },
+    {
+      "title": "Em que ano a Declaração de Independência dos Estados Unidos foi assinada?",
+      "response1": "1776",
+      "response2": "2077",
+      "response3": "1822",
+      "response4": "2002",
+      "response-correct": "1776",
+      "id": 4
+    },
+    {
+      "title": "Qual é o processo pelo qual as plantas convertem a luz solar em energia?",
+      "response1": "Fotossíntese",
+      "response2": "Folha",
+      "response3": "Caule",
+      "response4": "Metamorfose",
+      "response-correct": "Fotossíntese",
+      "id": 5
+    },
+    {
+      "title": "Quem escreveu 'Romeu e Julieta'?",
+      "response1": "Clarice Lispector",
+      "response2": "Machado de Assis",
+      "response3": "George R. R. Martin",
+      "response4": "William Shakespeare",
+      "response-correct": "William Shakespeare",
+      "id": 6
+    },
+    {
+      "title": "Qual é a capital do Japão?",
+      "response1": "konohacida",
+      "response2": "Osaka",
+      "response3": "Tóquio",
+      "response4": "Hiroshima",
+      "response-correct": "Tóquio",
+      "id": 7
+    },
+    {
+      "title": "Qual é o maior oceano do mundo?",
+      "response1": "Oceano Pacífico",
+      "response2": "Oceano Atlântico",
+      "response3": "Oceano Ártico",
+      "response4": "Mar do Caribe",
+      "response-correct": "Oceano Pacífico",
+      "id": 8
+    },
+    {
+      "title": "Quem foi o primeiro homem a pisar na Lua?",
+      "response1": "ET Bilu",
+      "response2": "Michael Collins",
+      "response3": "Yuri Gagarin",
+      "response4": "Neil Armstrong",
+      "response-correct": "Neil Armstrong",
+      "id": 9
+    },
+    {
+      "title": "Qual é a fórmula química da água?",
+      "response1": "CO2",
+      "response2": "H2O",
+      "response3": "NH3",
+      "response4": "H2O2",
+      "response-correct": "H2O",
+      "id": 10
+    }
+  ]
+}
