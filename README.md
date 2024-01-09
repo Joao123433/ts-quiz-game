@@ -25,16 +25,13 @@
 
 ## Uso
 1. Clone o repositório para o seu ambiente local.
-  ```bash
-  git clone https://github.com/seu-usuario/nome-do-repositorio.git
-  cd 
+    ```bash git clone https://github.com/Joao123433/ts-quiz-game.git
+    cd 
 
 2. Instale as dependências usando o npm.
-  ```bash
-  npm install
+    ```bash npm install
 
 3. Inicie o servidor JSON usando o json-server para simular o banco de dados.
-  ```bash
-  npm run json-server
+    ```bash npm run json-server
 
 4. Abra o arquivo index.html em um navegador da web para iniciar o jogo.
