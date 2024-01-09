@@ -2,7 +2,7 @@
 - Este projeto é um jogo de quiz simples implementado em Typescript, HTML e CSS, usando o json-server de banco de dados para armazenar as perguntas e respostas. Ele permite que os usuários respondam a uma série de perguntas de múltipla escolha e verifica suas respostas, fornecendo feedback imediato.
 
 ## Funcionalidades Principais
-1. Obtenção de Perguntas:
+1. `Obtenção de Perguntas:`
 - O jogo faz uma solicitação assíncrona para um servidor local para obter perguntas de um banco de dados.
 
 2. Temporizador:
