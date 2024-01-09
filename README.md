@@ -14,7 +14,7 @@
 4. `Pontuação:`
 - A pontuação do jogador é rastreada ao longo do jogo. A pontuação final é exibida no final do quiz.
 
-`5. Interface Gráfica:`
+5. `Interface Gráfica:`
 - O jogo possui uma interface simples com cabeçalho, barra de separação, área principal de perguntas e um painel de pontuação.
 
 6. `Restart e Encerramento:`
@@ -24,7 +24,7 @@
 - Node.js
 
 ## Uso
-1. `Clone o repositório para o seu ambiente local e acesse o repositório.`
+1. Clone o repositório para o seu ambiente local e acesse o repositório.
     ```bash 
     git clone https://github.com/Joao123433/ts-quiz-game.git
     cd ts-quiz-game
