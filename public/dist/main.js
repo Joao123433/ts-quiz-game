@@ -81,6 +81,7 @@ function next(ev) {
     controlSetInterval = setInterval(timer, 1000);
     if (iteratorQuestion === maxQuestions) {
         hideElements();
+        return;
     }
     iteratorQuestion++;
     span[0].textContent = `${iteratorQuestion}`;
@@ -101,7 +102,7 @@ async function getQuestions() {
         maxQuestions = randomNumberQuestions();
         span[0].textContent = `${iteratorQuestion}`;
         span[1].textContent = `${maxQuestions}`;
-        sortQuestions(arrayResults, maxQuestions);
+        sortQuestions(arrayResults.questions, maxQuestions);
         renderInfoQuestion();
     }
     catch (error) {

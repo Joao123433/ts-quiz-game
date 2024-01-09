@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "tsc-watch": "tsc --watch",
-    "json-server": "json-server --watch https://raw.githubusercontent.com/Joao123433/json-data/main/data.json"
+    "json-server": "json-server --watch db.json"
   },
   "keywords": [],
   "author": "",

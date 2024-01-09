@@ -108,6 +108,7 @@ function next(ev: { preventDefault: () => void }) {
 
   if(iteratorQuestion === maxQuestions) {
     hideElements()
+    return
   }
 
   iteratorQuestion++
@@ -134,7 +135,7 @@ async function getQuestions() {
     span[0].textContent = `${iteratorQuestion}`
     span[1].textContent = `${maxQuestions}`
     
-    sortQuestions(arrayResults, maxQuestions)
+    sortQuestions(arrayResults.questions, maxQuestions)
     renderInfoQuestion()
   } catch(error) {
     alert(error)
