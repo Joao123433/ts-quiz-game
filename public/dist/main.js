@@ -20,7 +20,7 @@ async function fetchQuestions() {
     return Promise.reject("Erro inesperado");
 }
 function randomNumberQuestions() {
-    return Math.floor(Math.random() * (10 - 1) + 1);
+    return Math.floor(Math.random() * (14 - 1) + 1);
 }
 function removeEvent() {
     const divs = document.querySelectorAll(".divs");
